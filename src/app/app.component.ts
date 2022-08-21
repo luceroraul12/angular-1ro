@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Persona } from 'src/entities/persona';
 
 @Component({
   selector: 'app-root',
@@ -10,5 +11,11 @@ export class AppComponent {
 
   mostrar(){
     console.log(this.informacion);
+  }
+
+  recibirPersona(persona: Persona){
+    console.log("Persona recibida en Padre");
+    console.log(persona);
+    
   }
 }
