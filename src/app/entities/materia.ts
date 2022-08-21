@@ -1,4 +1,5 @@
-export interface Materia {
-    titulo: string;
-    añoDeCursada: number;
+export class Materia {
+    titulo!: string;
+    añoDeCursada!: number;
+    
 }
