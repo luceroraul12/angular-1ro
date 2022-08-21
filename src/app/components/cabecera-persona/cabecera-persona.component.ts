@@ -15,7 +15,7 @@ export class CabeceraPersonaComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  recogerFormulario(){
-    
+  onSubmit(){
+    alert();
   }
 }
