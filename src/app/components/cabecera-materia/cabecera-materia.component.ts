@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cabecera-materia',
+  selector: 'materia',
   templateUrl: './cabecera-materia.component.html',
   styleUrls: ['./cabecera-materia.component.css']
 })

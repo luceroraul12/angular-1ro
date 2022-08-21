@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cabecera-persona',
+  selector: 'persona',
   templateUrl: './cabecera-persona.component.html',
   styleUrls: ['./cabecera-persona.component.css']
 })
