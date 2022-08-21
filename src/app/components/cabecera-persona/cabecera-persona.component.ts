@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Persona } from 'src/entities/persona';
 
 @Component({
   selector: 'persona',
@@ -7,15 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CabeceraPersonaComponent implements OnInit {
 
+  public persona: Persona;
 
   constructor(
   ) {
+    this.persona = new Persona();
    }
 
   ngOnInit(): void {
   }
 
   onSubmit(){
-    alert();
+    console.log(this.persona);
   }
 }

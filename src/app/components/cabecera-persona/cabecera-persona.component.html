@@ -1,17 +1,17 @@
 <h1>CABECERA DE PERSONA</h1>
 <div>
-    <form #useForm="ngForm" (ngSubmit)="onSubmit()">
+    <form #personaForm="ngForm" (ngSubmit)="onSubmit()">
         <div>
             <label>NOMBRE</label>
-            <input type="text" name="nombre">
+            <input type="text" name="nombre" #nombre="ngModel" [(ngModel)]="persona.nombre">
         </div>
         <div>
             <label>APELLIDO</label>
-            <input type="text" name="apellido">
+            <input type="text" name="apellido" #apellido="ngModel" [(ngModel)]="persona.apellido">
         </div>
         <div>
             <label>EDAD</label>
-            <input type="text" name="edad">
+            <input type="text" name="edad" #edad="ngModel" [(ngModel)]="persona.edad">
         </div>
 
         <input type="submit" name="submit" value="enviar">
