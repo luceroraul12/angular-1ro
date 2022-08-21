@@ -1,7 +1,7 @@
-export class Persona {
+export interface Persona {
 
-    nombre!: string;
-    apellido!: string;
-    edad!: number;
+    nombre: string;
+    apellido: string;
+    edad: number;
 
 }
