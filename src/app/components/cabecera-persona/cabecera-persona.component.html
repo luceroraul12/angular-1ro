@@ -17,3 +17,12 @@
         <input type="submit" name="submit" value="enviar">
     </form>
 </div>
+<mat-grid-list cols="4">
+    <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightblue'">
+        <app-formulario-prueba></app-formulario-prueba>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="3" [rowspan]="1" [style.background]="'lightblue'">
+        <app-formulario-prueba></app-formulario-prueba>
+    </mat-grid-tile>
+</mat-grid-list>

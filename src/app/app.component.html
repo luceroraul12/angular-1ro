@@ -1,2 +1,13 @@
-<persona (personaParaEnviar)="recibirPersona($event)"></persona>
-<exportacion></exportacion>
+<mat-tab-group mat-align-tabs="center">
+    <mat-tab label="PERSONA">
+        <persona (personaParaEnviar)="recibirPersona($event)"></persona>
+    </mat-tab>
+    <mat-tab label="EXPORTACION">
+        <exportacion></exportacion>
+    </mat-tab>
+    <mat-tab label="FORMULARIO">
+        <div>
+            <app-formulario-prueba></app-formulario-prueba>
+        </div>
+    </mat-tab>
+</mat-tab-group>

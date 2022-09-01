@@ -1,0 +1,11 @@
+mat-form-field{
+    display: auto;
+    position: relative;
+    padding: 10px;
+}
+
+div{
+    align-items: center;
+    justify-content: center;
+
+}

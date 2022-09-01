@@ -1,0 +1,9 @@
+mat-grid-list{
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+mat-grid-tile{
+    pad: 5% !important;
+}
